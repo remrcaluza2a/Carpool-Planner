@@ -43,3 +43,5 @@ Netlify applies migrations automatically on deploy.
 - Rider self-signup: a "join this trip" view where riders add themselves
 - Gas or cost split per car
 - Return-trip seating that differs from the way out
+
+https://6afefc673500c56216cee2bd--carpool-planner-f8c738.netlify.app
