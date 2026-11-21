@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
+  framework = "#custom"
+
+# Client-side routes for trip pages. Kept narrow so /api/* reaches the Netlify Server.
+[[redirects]]
+  from = "/trips/*"
+  to = "/index.html"
+  status = 200
